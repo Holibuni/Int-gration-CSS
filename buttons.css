@@ -1,0 +1,22 @@
+.buttonsheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.buttonsheader a:nth-child(1) {
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #4caf4f;
+}
+
+.buttonsheader a:nth-child(2) {
+  width: fit-content;
+  background-color: #4caf4f;
+  padding: 4px 15px;
+  border-radius: 4px;
+  color: #ffffff;
+}
